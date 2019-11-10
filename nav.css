@@ -30,7 +30,10 @@
     display: flex;
     width: 25%;
     height: 50px;
+}
 
+#logo a {
+    text-decoration: none;
 }
 
 #logo img{
@@ -39,7 +42,7 @@
     height: 30px;
 }
 
-#logo h2 {
+#logo h2{
     margin: 0;
     color: black;
     display: inline-flex;

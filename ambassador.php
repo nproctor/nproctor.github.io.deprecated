@@ -51,6 +51,15 @@
             </form> -->
         </div>
 
+        <div id="footer">
+            <ul>
+                <li> <img src="img/instagram-logo.png"> <h3> @pebble.gear </h3></li>
+                <li> <img src="img/email-logo.png"> <h3> contact.pebble.gear@gmail.com </h3></li>
+                <li> <img src="img/store-logo.png"> <h3> https://www.etsy.com/shop/PebbleGear </h3></li>
+                <li> <img src="img/photo-logo.png"> <h3> Photo Credits </h3></li>
+            </ul>
+        </div>
+
     </body>
 </html>
 

@@ -39,6 +39,44 @@ h1 {
   font-size: 60px;
   margin-bottom: 0px;
 }
+
+#footer {
+  background: #222222;
+  height: 150px;
+  color: white;
+  width: 100%;
+}
+
+#footer ul {
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+  padding: 50px;
+  flex-direction: row;
+  text-align: left;
+  justify-content: center;
+}
+
+#footer li {
+  display:inline-flex;
+  height: 25px;
+  padding: 10px;
+  margin: 0;
+  
+}
+
+#footer img {
+  height: 30px;;
+}
+
+#footer h3 {
+  font-weight: normal;
+  font-size: 12px;
+  font-family: 'roboto';
+  margin: 0;
+  padding: 7px;
+  
+}
   
   
   

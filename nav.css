@@ -5,12 +5,12 @@
 
 #nav-menu {
     display: flex;
-    width: 50%;
+    width: 75%;
     height: inherit;
     padding: inherit;
     margin: inherit;
     list-style-type: none;
-    justify-content: space-between;
+    justify-content: left;
 }
 
 #nav-menu li {

@@ -1,3 +1,4 @@
+<!doctype html>
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
@@ -62,32 +63,3 @@
 
     </body>
 </html>
-
-
-
-<!doctype html>
-
-<?php
-
-$sender = 'be.bolder.with.pebble@gmail.com';
-$recipient = 'be.bolder.with.pebble@gmail.com';
-
-$subject = "php mail test";
-$message = "php test message";
-$headers = 'From:' . $sender;
-
-
-$action = $_GET["action"];
-// $myText = $_POST["mytext"];
-
-if ($action = "send") {
-    if (mail($recipient, $subject, $message, $headers))
-    {
-        echo '<script> success() </script>';
-    }
-    else
-    {
-        echo '<script> error() </script>';
-    }
-}
-?> 

@@ -1,0 +1,51 @@
+
+
+body {
+  font-family: 'roboto';
+  background: #FFFFFF;  
+  margin: 0;
+  text-align: center;
+}
+
+#billboard{
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+  
+#billboard img {
+  display: inline-flex;
+  background: #65eecd;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+#banner{
+  display: flex;
+  justify-content: center;
+}
+
+#banner img {
+  display: inline-flex;
+  background: #65eecd;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'playlistscript';
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+  
+  
+  
+  @media only screen and (max-width: 910px){
+
+  }
+  
+  @media only screen and (max-width: 500px){
+
+  }

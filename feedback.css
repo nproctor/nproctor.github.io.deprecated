@@ -1,0 +1,40 @@
+#feedback-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#feedback-form input, button, textarea, label, span{
+    text-align: left;
+    display: block;
+    width: 50%;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#feedback-form label{
+    margin-bottom: 0px;
+}
+
+#feedback-form input, textarea{
+    font-family: 'roboto';
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+#feedback-form button{
+    text-align: center;
+    background: #ffaaaa;
+}
+
+#rating {
+    margin: 0;
+    padding: 0;
+}
+
+#rating img{
+    display: inline-block;
+    width: 5%;
+    margin: 0;
+}

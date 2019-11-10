@@ -1,0 +1,29 @@
+#ambassador-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ambassador-form input, button, textarea, label{
+    text-align: left;
+    display: block;
+    width: 50%;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#ambassador-form label{
+    margin-bottom: 0px;
+}
+
+#ambassador-form input, textarea{
+    font-family: 'roboto';
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+#ambassador-form button{
+    text-align: center;
+    background: #ffaaaa;
+}

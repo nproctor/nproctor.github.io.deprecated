@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" type="text/css" href="nav.css">
+        <link rel="stylesheet" type="text/css" href="feedback.css">
+        <script>
+            function starOn(el, num) {
+                var stars = document.getElementById('rating').children;
+                for (i=0; i < num; i ++){
+                    stars[i].src = "img/star.png";
+                }
+                for (i; i < 5; i ++){
+                    stars[i].src = "img/star-off.png";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="ambassador.html">Brand Ambassador</a></li>
+                <li class="active"><a href="feedback.html">Feedback</a></li>
+                <li><a href="contact.html">Contact</a></li>   
+            </ul>
+        </div>
+        <div id="logo">
+            <a href="index.html">
+                <img src="img/logo.png">
+                <h2>Pebble</h2>
+            </a>
+        </div>
+        <div id="banner">
+            <img src="img/pebblesmallbanner.png">
+        </div>
+
+        <div id="feedback-form">
+            <h1>Feedback</h1>
+            <p>Love it? Hate it? We want to know!</p>
+            <form>
+                <label>Name: </label>
+                <input type="text" id="fname" name="name" placeholder="Name">
+
+                <label>Email: </label>
+                <input type="text" id="email" name="email" placeholder="E-mail">
+
+                <label>Product: </label>
+                <input type="text" id="product" name="product" placeholder="Product">
+
+                <label>Overall Satisfaction: </label>
+                <span id="rating">
+                    <img src="img/star.png" onclick="starOn(this, 1)">
+                    <img src="img/star.png" onclick="starOn(this, 2)">
+                    <img src="img/star.png" onclick="starOn(this, 3)">
+                    <img src="img/star.png" onclick="starOn(this, 4)">
+                    <img src="img/star.png" onclick="starOn(this, 5)">
+                </span>
+                <label>Comments </label>
+                <textarea rows="5" id="why" ></textarea>
+
+                <button type="submit" id="submit">
+                    <text>Submit</text>
+                </button>
+            </form>
+        </div>
+
+    </body>
+</html>

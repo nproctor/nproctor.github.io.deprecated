@@ -1,0 +1,18 @@
+#contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact ul{
+    list-style-type: none;
+    text-align: left;
+}
+
+#contact h2{
+    font-family: 'playlistscript';
+    font-size: 36px;
+    color: #ff6b6b;
+    padding: 10px;
+    display: inline;
+}

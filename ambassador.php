@@ -7,19 +7,17 @@
         <script src="ambassador.js"></script> 
     </head>
     <body>
-        <div id="logo">
-            <a href="index.html">
-                <img src="img/logo.png">
-                <h2>Pebble</h2>
-            </a>
-        </div>
         <div id="nav-bar">
-            <ul>
+            <div id="logo">
+                <a href="index.html"><img src="img/logo.png"></a>
+                <a href="index.html"><h2>Pebble</h2></a>
+            </div>
+            <ul id="nav-menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="products.html">Products</a></li>
-                <li class="active"><a href="ambassador.html">Brand Ambassador</a></li>
+                <li class="active"><a href="ambassador.php">Brand Ambassador</a></li>
                 <li><a href="feedback.html">Feedback</a></li>
-                <li><a href="contact.html">Contact</a></li>    
+                <li><a href="contact.html">Contact</a></li>   
             </ul>
         </div>
 
